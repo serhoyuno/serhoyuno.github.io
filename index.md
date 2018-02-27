@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /
-title: "Latest Posts"
+title: "Cero y uno"
 ---
 
 <div class="tiles">
