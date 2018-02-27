@@ -1,8 +1,16 @@
-_site
+#  Generals ignores  #
+
+# mac crap
 .DS_Store
-*.sublime-project
-*.sublime-workspace
-codekit-config.json
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jekyll stuff
+# from https://github.com/github/gitignore/blob/master/Jekyll.gitignore
 node_modules
 _asset_bundler_cache
 .sass-cache
