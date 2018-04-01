@@ -10,8 +10,6 @@ ehthumbs.db
 Thumbs.db
 
 # Jekyll stuff
-# from https://github.com/github/gitignore/blob/master/Jekyll.gitignore
-node_modules
 .sass-cache/
 _asset_bundler_cache
 .sass-cache
