@@ -5,6 +5,7 @@ description: "Números palabras"
 logo: ShU.png # 120x120px default image used for summary
 teaser: escritos.jpeg # 400x250px default teaser used in grid
 locale: es
+url:
 feed:
   path: feed.xml
 
@@ -26,8 +27,8 @@ gems:
 # Site owner
 owner:
   name: "Fernando Rivas"
-  email: fenandos@hotmail.com
-  twitter: @fenandosr
+  email: "fenandos@hotmail.com"
+  twitter: fenandosr
   bio: mx
   avatar: fjrr_mini.jpg # 160x160px author inline
   disqus-shortname: fenandosr
