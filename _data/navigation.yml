@@ -1,6 +1,32 @@
 # Site navigation links
 
-- title:
-  url:
-  excerpt:
-  image:
+- title: binarios
+  url: ceroyuno/
+  excerpt: "Hay a veces símbolos"
+  image: binarios.jpeg
+
+- title: escritos
+  url: serhoyuno/
+  excerpt: "Palabras en ramas que derraman"
+  image: escritos.jpeg
+
+- title: sólidos
+  url: solidos/
+  excerpt: "Líneas en imagen"
+  image: solidos.jpeg
+
+- title: ser-vos
+  url: ser-vos/
+  excerpt: "Putas la payasa"
+  image: ser-vos.jpeg
+
+- title: artículos
+  url: articulos/
+  excerpt: "Sobre la sensatez"
+  image: articulos.jpeg
+
+- title: media
+  url: media/
+  excerpt: "Comunidad"
+  image: media.jpeg
+
