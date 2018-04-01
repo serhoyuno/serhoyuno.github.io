@@ -1,10 +1,10 @@
 ---
 layout: archive
 permalink: /
-title: "Cero y uno"
+title: "ShU: Cero y uno"
 ---
 
-# Cero y uno | Ser hoy uno
+# Publicados
 
 <div class="tiles">
 {% for post in site.posts %}
