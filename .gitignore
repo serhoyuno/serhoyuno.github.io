@@ -10,6 +10,7 @@ ehthumbs.db
 Thumbs.db
 
 # Jekyll stuff
+_site/
 .sass-cache/
 _asset_bundler_cache
 .sass-cache
