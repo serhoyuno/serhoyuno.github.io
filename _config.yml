@@ -2,12 +2,12 @@
 
 title: "Ser hoy uno"
 description: "Números palabras"
-logo: ShU.png # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
-locale: en
+logo: ShU.png # 120x120px default image used for summary
+teaser: escritos.jpeg # 400x250px default teaser used in grid
+locale: es
 url:
 feed:
-  path: atom.xml
+  path: feed.xml
 
 # Jekyll configuration
 
@@ -26,15 +26,12 @@ gems:
 
 # Site owner
 owner:
-  name:
-  email:
-  twitter:
-  google:
-    ad-client:
-    ad-slot:
-  bio:
-  avatar: bio-photo.jpg # 160x160 px image for author byline
-  disqus-shortname:
+  name: "Fernando Rivas"
+  email: "fenandos@hotmail.com"
+  twitter: "@fenandosr"
+  bio: "mx"
+  avatar: fjrr_mini.jpg # 160x160px author inline
+  disqus-shortname: "fenandosr"
 
 
 include:
@@ -62,3 +59,5 @@ exclude:
   - package.json
   - spec
   - tmp
+  - Dokerfile
+  - docker-compose.yml
