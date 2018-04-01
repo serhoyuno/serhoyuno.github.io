@@ -4,7 +4,7 @@ FROM phusion/passenger-ruby21:0.9.15
 MAINTAINER Fernando Rivas "fenandos@hotmail.com"
 
 # Set environment variables
-ENV HOME /home/shu
+ENV HOME /home/app
 
 # Use baseimage-docker's init process
 CMD ["/sbin/my_init"]
@@ -19,7 +19,7 @@ RUN rm -f /etc/service/nginx/down
 RUN rm /etc/nginx/sites-enabled/default
 
 # Add the Nginx site and config
-COPY nginx.conf /etc/nginx/sites-enabled/shu.conf
+COPY nginx.conf /etc/nginx/sites-enabled/serhoyuno.com.conf
 
 # Install bundle of gems
 WORKDIR /tmp
@@ -28,11 +28,11 @@ COPY Gemfile.lock /tmp/
 RUN bundle install
 
 # Add the Passenger app
-COPY . /home/shu
-RUN chown -R app:app /home/shu
+COPY . /home/app
+RUN chown -R app:app /home/app
 
 # Build the app with Jekyll
-WORKDIR /home/shu
+WORKDIR /home/app
 RUN jekyll build --watch --incremental
 
 # Clean up APT when done
