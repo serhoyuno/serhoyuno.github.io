@@ -1,0 +1,33 @@
+# ShU
+
+Jekyll-Docker:
+- Dockerfile @A
+	- Phusion, passenger
+	- Con la opción de montar archivos
+- Docker-compose @B
+
+AWS-Cloudfare:
+- Certificación SSL serhoyuno.com con Amazon @A
+- Cloudfare redirecciona @A
+	- Cambiar los DNS de Amazon
+- ¿Qué estoy pagando en Amazon? @B
+
+Go-online:
+- Decidir qué artículos y editarlos
+- Hacer script que publique de mis repos al repo
+- Guidelines, instrucciones, pro-tips para publicar
+
+Diseño:
+- Logo @C
+	- Puedo tener ilustrator
+- Asterisco @B
+- Hacer el boceto de la página @A
+- Programar el boceto @A
+- Programar los estilos de artículos @B
+
+Desarrollo:
+- Habilitar comentarios @B
+
+Editor:
+- Tener un plan de flujo de trabajo @A
+
