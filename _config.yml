@@ -4,7 +4,7 @@ title: "Ser hoy uno"
 description: "Números palabras"
 logo: ShU.png # 120x120px default image used for summary
 teaser: escritos.jpeg # 400x250px default teaser used in grid
-locale: es
+locale: en
 url:
 feed:
   path: feed.xml
