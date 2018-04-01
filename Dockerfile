@@ -33,7 +33,7 @@ RUN chown -R app:app /home/app
 
 # Build the app with Jekyll
 WORKDIR /home/app
-RUN jekyll build --watch --incremental
+RUN jekyll build
 
 # Clean up APT when done
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
