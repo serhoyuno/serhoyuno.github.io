@@ -12,10 +12,13 @@ AWS-Cloudfare:
 	- Cambiar los DNS de Amazon
 - ¿Qué estoy pagando en Amazon? @B
 
+Skinny-bones:
+- Entender la estructura de archivos @A
+
 Go-online:
-- Decidir qué artículos y editarlos
-- Hacer script que publique de mis repos al repo
-- Guidelines, instrucciones, pro-tips para publicar
+- Decidir qué artículos y editarlos @B
+- Hacer script que publique de mis repos al repo @C
+- Guidelines, instrucciones, pro-tips para publicar @C
 
 Diseño:
 - Logo @C
