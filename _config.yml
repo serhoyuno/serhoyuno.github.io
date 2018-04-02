@@ -6,7 +6,7 @@ logo: ShU.png # 120x120px default image used for summary
 logo_micro: ShU_micro.png # 120x120px default image used for summary
 teaser: escritos.jpeg # 400x250px default teaser used in grid
 locale: es
-url: serhoyuno.com
+url: https://serhoyuno.com
 feed:
   path: atom.xml
 
