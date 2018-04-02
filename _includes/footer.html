@@ -7,7 +7,13 @@
               {% else %}
                 {% assign domain = site.url %}
               {% endif %}
-              <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+              {% if link.icon %}
+                <li><a style="font-size: 200%" href="{{ domain }}{{ link.url }}" {% if link.url contains
+                'http' %}target="_blank"{% endif %}><i class="{{ link.icon }}"></i></a></li>
+              {% else %}
+                <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains
+                        'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+              {% endif %}
             {% endfor %}
         </ul>
     </nav><!-- /.bottom-menu -->
