@@ -33,7 +33,14 @@
 	line-height: .5 * $masthead-height; // half the height to center vertically
 	text-transform: uppercase;
 }
-
+.site-logo {
+	@include row;
+	@include media($large) {
+		@include span-columns(1);
+	}
+    height: $masthead-height;
+    max-width: 60;
+}
 
 /*
    Menus

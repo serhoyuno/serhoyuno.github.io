@@ -3,6 +3,7 @@
 title: "Ser hoy uno"
 description: "Números palabras"
 logo: ShU.png # 120x120px default image used for summary
+logo_micro: ShU_micro.png # 120x120px default image used for summary
 teaser: escritos.jpeg # 400x250px default teaser used in grid
 locale: es
 url:
@@ -22,7 +23,9 @@ gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-
+read_time: true
+words_per_minute: 200
+mathjax: true
 
 # Site owner
 owner:
