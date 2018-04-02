@@ -8,7 +8,7 @@ teaser: escritos.jpeg # 400x250px default teaser used in grid
 locale: es
 url:
 feed:
-  path: feed.xml
+  path: atom.xml
 
 # Jekyll configuration
 
