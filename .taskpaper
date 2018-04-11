@@ -1,23 +1,25 @@
 # ShU
 
 Jekyll-Docker:
-- Dockerfile @A
-	- Phusion, passenger
-	- Con la opción de montar archivos
+- Dockerfile @A @done(2018-04-01)
+	- Phusion, passenger @done(2018-04-01)
+	- Con la opción de montar archivos @cancelled(2018-04-01)
 - Docker-compose @B
 
 AWS-Cloudfare:
 - Certificación SSL serhoyuno.com con Amazon @A
-- Cloudfare redirecciona @A
-	- Cambiar los DNS de Amazon
+- Cloudflare redirecciona @A @done(2018-04-01)
+	- Cambiar los DNS de Amazon @done(2018-04-01)
 - ¿Qué estoy pagando en Amazon? @B
 
 Skinny-bones:
-- Entender la estructura de archivos @A
+- Entender la estructura de archivos @A @done(2018-04-01)
 
 Go-online:
 - Decidir qué artículos y editarlos @B
-- Hacer script que publique de mis repos al repo @C
+-	Lista de primeros artículos @A
+-	Planear cómo hacer listas de artículos por publicar @A
+- Hacer script que publique de mis repos sucios al repo ShU @C
 - Guidelines, instrucciones, pro-tips para publicar @C
 
 Diseño:
@@ -33,4 +35,5 @@ Desarrollo:
 
 Editor:
 - Tener un plan de flujo de trabajo @A
+-	Tener una lista de necesidades para tener un plan de trabajo
 
