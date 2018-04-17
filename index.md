@@ -14,7 +14,7 @@ title: "Ser hoy uno"
 
 <div class="tiles" style="overflow: hidden">
 {% for post in site.posts %}
-	{% include post-grid.html %}
+   {% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles -->
 
