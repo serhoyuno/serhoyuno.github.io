@@ -12,8 +12,13 @@ $(document).ready(function(){
 
 // FitVids
 $(document).ready(function(){
-	// Target your .container, .wrapper, .post, etc.
-	$("#main").fitVids();
+    // Target your .container, .wrapper, .post, etc.
+    $("#main").fitVids();
+});
+
+// particlesJS.load(@dom-id, @path-json, @callback (optional));
+particlesJS.load('particles-js', '_data/particles.json', function() {
+      console.log('callback - particles.js config loaded');
 });
 
 // Table of Contents title. Change text to localize

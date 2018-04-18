@@ -1,11 +1,13 @@
 <header id="masthead">
-  <div class="inner-wrap">
-    <a href="{{ site.url }}/" class="site-logo">
-      <img src="/images/{{ site.logo_micro | relative_url }}" alt="{{ site.title }}">
-    </a>
-    <a href="{{ site.url }}/" class="site-title">{{ site.title }}</a>
-    <nav role="navigation" class="menu top-menu">
-        {% include navigation.html %}
-    </nav>
-  </div><!-- /.inner-wrap -->
+  <div id="particles-js">
+      <div class="inner-wrap">
+        <a href="{{ site.url }}/" class="site-logo">
+          <img src="/images/{{ site.logo_micro | relative_url }}" alt="{{ site.title }}">
+        </a>
+        <a href="{{ site.url }}/" class="site-title">{{ site.title }}</a>
+        <nav role="navigation" class="menu top-menu">
+            {% include navigation.html %}
+        </nav>
+      </div><!-- /.inner-wrap -->
+  </div>
 </header><!-- /.masthead -->
