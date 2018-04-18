@@ -17,7 +17,7 @@ $(document).ready(function(){
 });
 
 // particlesJS.load(@dom-id, @path-json, @callback (optional));
-particlesJS.load("particles-js", "{{ site.url }}/_data/particles.json");
+particlesJS.load("particles-js", "https://raw.githubusercontent.com/serhoyuno/serhoyuno.github.io/master/_data/particles.json");
 
 // Table of Contents title. Change text to localize
 $("#markdown-toc").prepend("<li><h6>{{ site.data.messages.locales[site.locale].overview }}</h6></li>");
